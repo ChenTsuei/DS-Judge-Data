@@ -30,7 +30,7 @@ def vis_tree(tree):
 _n = ati([0, 1, 10, 50, 100, 500, 1000, 2000, 5000, 10000, 20000])
 
 for i in range(1, 11):
-    test_data = IO(file_prefix="binary_tree_2_", data_id=i)
+    test_data = IO(file_prefix="binary_tree_2_", data_id=i, disable_output=True)
     n = _n[i]
     tree = None
     if i == 10:

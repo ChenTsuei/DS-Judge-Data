@@ -4,7 +4,7 @@ from gen_tree import gen_tree
 _n = ati([0, 1, 10, 50, 100, 1000, 5000, 10000, 50000, 100000, 100000])
 
 for i in range(1, 11):
-    test_data = IO(file_prefix="binary_tree_1_", data_id=i)
+    test_data = IO(file_prefix="binary_tree_1_", data_id=i, disable_output=True)
     n = _n[i]
     tree = None
     if i == 10:
